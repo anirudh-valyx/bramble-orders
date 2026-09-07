@@ -4,14 +4,23 @@ Bramble is a small direct-to-consumer shop. This is the internal admin tool
 the ops team uses to manage orders. Engineering shipped this v1 last sprint
 so the team could stop using a spreadsheet. It works, but nobody has designed it.
 
-## Run it
+## Try it
+
+Live version, no setup needed:
+
+**https://anirudh-valyx.github.io/bramble-orders/**
+
+Note: the backend is simulated in your browser, so any changes you make
+reset when you reload the page.
+
+If you would rather run it locally (optional):
 
 ```bash
 npm install
 npm run dev
 ```
 
-Open the URL Vite prints (usually http://localhost:5173).
+Open the URL Vite prints.
 
 ## What it does today
 
